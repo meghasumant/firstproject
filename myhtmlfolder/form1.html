@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+</head>
+<body>
+    <form>
+        <label for="txtname">Enter Name </label>
+        <input name="txtname" type="text" placeholder="Please enter your nav-item"><br>
+        <label>Enter the address</label>
+        <input type="text"><br>
+        <Label>Enter email Id</Label>
+        <input type="email" required placeholder="Enter your email"><br>
+        <label>Enter age </label>
+        <input type="number" value="18"><br>
+        <label>Select your Education</label>
+        <!--<select>
+            <option>Post Graduate</option>
+            <option>Graduate</option>
+            <option>HSC</option>
+        </select>
+    -->
+    <input type="radio" name="education">Post Graduation</input>
+    <input type="radio" name="education">Graduation</input>
+    <input type="radio" name="education">HSC</input>
+    <br>
+    <label>Enter the languages you know</label>
+    <input type="checkbox" checked>English
+    <input type="checkbox">Hindi
+    <input type="checkbox">Marathi
+    
+    <fieldset>	 
+        <legend>Theme color:</legend>
+        <p>
+        <input type="radio" name="color" id="red" value="#F00" required >
+        <label for="red">Red</label>
+        </p>
+        <p>
+        <input type="radio" name="color" id="green" value="#0F0">
+        <label for="green">Green</label>
+        </p> 
+    </fieldset>
+    <input type="color">
+    <input type="date">
+    <input type="password">
+    <input type="file" accept="image/*">
+    <input type="search">
+    </form>
+    <marquee direction="right" behavior="alternate" ><img src="sample.jpg" height="300px" width="400px"></marquee>
+</body>
+</html>
